@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #0b3c5d, #1c7293);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+#logos {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#logos img {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#logos img:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+#nomDeClasse {
+    min-height: 80px;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    backdrop-filter: blur(6px);
+    text-align: center;
+    transition: opacity 0.3s ease;
+    line-height: 1.6;
+}
+
+/* Nom de la classe (première ligne de texte) */
+#nomDeClasse::first-line {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+/* Liste des voiliers */
+#nomDeClasse p {
+    margin-top: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #e0f2ff;
+}
+
+/* Année mise en valeur visuellement */
+#nomDeClasse p::after {
+    display: block;
+    content: "";
+}
+

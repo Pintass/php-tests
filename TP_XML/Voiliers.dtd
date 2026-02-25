@@ -1,0 +1,25 @@
+<!ELEMENT voiliers (voilier*)>
+<!ATTLIST voiliers
+        transat CDATA #REQUIRED
+        >
+
+<!ELEMENT voilier (nom, photo, skippers)>
+    <!ATTLIST voilier
+            Classe CDATA #REQUIRED
+            Annee CDATA #REQUIRED
+    >
+<!ELEMENT nom (#PCDATA)>
+
+<!ELEMENT photo (#PCDATA)>
+
+<!ELEMENT skippers (skipper*)>
+
+<!ELEMENT skipper (nom, origine)>
+
+<!ATTLIST skipper
+                age CDATA #REQUIRED
+>
+<!ELEMENT age (#PCDATA)>
+
+<!ELEMENT origine (#PCDATA)>
+

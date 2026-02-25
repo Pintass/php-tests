@@ -1,0 +1,61 @@
+{
+  "nom": "Route du Café 2025",
+  "classes": [
+    {
+      "logo": "logo_class40.webp",
+      "nom": "Class40",
+      "voiliers": [
+        {
+          "année": "2023",
+          "nom": "ALTERNATIVE SAILING- LES CONSTRUCTIONS DU BELON"
+        },
+        {
+          "année": "2024",
+          "nom": "LES INVINCIBLES"
+        }
+      ]
+    },
+    {
+      "logo": "logo_imoca.webp",
+      "nom": "IMOCA",
+      "voiliers": [
+        {
+          "année": "2020",
+          "nom": "CHARAL"
+        },
+        {
+          "année": "2025",
+          "nom": "ASSOCIATION PETITS PRINCES - QUEGUINER"
+        }
+      ]
+    },
+    {
+      "logo": "logo_oceanfifty.webp",
+      "nom": "Ocean Fifty",
+      "voiliers": [
+        {
+          "année": "2009",
+          "nom": "LE RIRE MÉDECIN - LAMOTTE"
+        },
+        {
+          "année": "2020",
+          "nom": "SOLIDAIRES EN PELOTON"
+        }
+      ]
+    },
+    {
+      "logo": "logo_classultim.webp",
+      "nom": "Ultim",
+      "voiliers": [
+        {
+          "année": "2017",
+          "nom": "ACTUAL ULTIM 4"
+        },
+        {
+          "année": "2019",
+          "nom": "SODEBO ULTIM 3"
+        }
+      ]
+    }
+   ]
+}
